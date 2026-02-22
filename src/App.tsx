@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import NewsLetter from './components/Newsletter';
+import Cards from './components/Cards';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <NewsLetter />
+      <Cards />
     </>
   )
 }
